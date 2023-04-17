@@ -1,0 +1,54 @@
+header{
+    background-color: black;
+}
+body{
+    background-color:  black;
+}
+
+header nav ul li {
+    color: #938400;
+}
+
+main section {
+background-color: #938400;
+height: 100px;
+}
+
+
+.Separador{
+    color: #938400;
+}
+
+
+.Events{
+    color: #938400;
+}
+footer{
+    background-color: black;
+}
+footer p {
+    color: white;
+}
+
+
+.sectionPrincipal {
+
+    background-color: cornflowerblue;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    align-items: center;
+
+  }
+  .buttonDots{
+    height: 40px;
+    display:flexbox;
+    margin: auto;
+    background-color: #938400;
+  }
