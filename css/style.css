@@ -232,3 +232,13 @@ footer p {
       display: none;
     }
   }
+
+.carousel-caption d-none d-md-block h5 {
+
+    color:#938400
+}
+
+.card-group{
+    height: 40%;
+    width: 40%;
+}
