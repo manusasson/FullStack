@@ -1,7 +1,15 @@
-header{
-    background-color: black;
-    height: 50%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+  }
 h1{
     color: #938400;
     text-align: center;
@@ -14,24 +22,15 @@ body{
     size: 15px;
 }
 
-header nav {
-    height: 70%;
-    width: 70%;
-    text-align: right;
-}
 header nav ul {
-    text-align:  right;
-}
-
-header nav ul li  {
-  
-    display: inline-block;
-    padding: 5px; 
-    font-weight: lighter;
-    text-align:right;
-    text-decoration: none;
-
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+  }
 header nav ul li a {
     color: #938400;
 
@@ -41,10 +40,11 @@ header nav ul li a {
     height: 50px;
 }
 
-main section {
-background-color: #938400;
-height: 300px;
+/*main section {
+background-color: #5e5d5670;
+height: 380px;
 }
+*/
 .fotos  {
     border: 1px solid ;
     width: 100%;
@@ -82,20 +82,18 @@ footer p {
 
     background-color: cornflowerblue;
 }
-
-.dot {
-    height: 15px;
-    width: 15px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 5px;
-    align-items: center;
-
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
   }
-  .buttonDots{
-    height: 40px;
-    display:flexbox;
-    margin: auto;
-    background-color: #938400;
+
+  .nuestras_cervezas {
+    text-align: center;
+
+    text-indent: 20px;
+    
+  }
+  .nuestras_cervezas img {
+  
+    padding: 0%;
   }
