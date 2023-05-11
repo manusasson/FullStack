@@ -40,11 +40,10 @@ header nav ul li a {
   height: 50px;
 }
 
-/*main section {
-background-color: #5e5d5670;
-height: 380px;
+main  {
+
 }
-*/
+
 .fotos  {
   border: 1px solid ;
   width: 100%;
@@ -102,7 +101,7 @@ footer p {
 .header {
   background-color: #030303;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
+
   width: 100%;
   z-index: 3;
 }
@@ -239,10 +238,12 @@ footer p {
 }
 
 .card-group{
+  margin-top: 150px;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  height: 40%;
-  width: 40%;
+  height: 100%;
+  width: 100%;
   padding-right: 15px;
 }
 .card {
@@ -250,4 +251,20 @@ footer p {
   align-items: center;
   position: relative;
   border: 3px solid black;
+}
+.card img {
+  height: auto;
+  width: auto;
+}
+.card-body p{
+  color: #938400;
+  text-align: center;
+}
+.card-body h5{
+  color: #938400;
+  text-align: center;
+}
+.card-body a{
+
+  text-align: center;
 }
