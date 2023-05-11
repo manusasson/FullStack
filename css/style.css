@@ -252,3 +252,19 @@ footer p {
   position: relative;
   border: 3px solid black;
 }
+.card img {
+  height: auto;
+  width: auto;
+}
+.card-body p{
+  color: #938400;
+  text-align: center;
+}
+.card-body h5{
+  color: #938400;
+  text-align: center;
+}
+.card-body a{
+
+  text-align: center;
+}
