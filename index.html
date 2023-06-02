@@ -1,130 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <title>Home | Beer House</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 
-</head>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
+    <link rel="stylesheet" href="css/aos.css">
 
-<body>
-    <header class="header">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-        <img class= "logo" src="./assets/logo.png" alt="logo">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li> <a href="./index.html">Inicio</a></li>
-                <li> <a href="../proyecto/pages/compras.html">Compras</a></li>
-                <li> <a href="../proyecto/pages/galeria.html">Galeria</a></li>
-                <li> <a href="../proyecto/pages/contacto.html">Contacto</a></li>
-                <li> <a href="../proyecto/pages/acercaDe.html">Acerca De</a></li>
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+		      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>Beer<br><small>House</small></a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="oi oi-menu"></span> Menu
+		      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+      <div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 ftco-animate">
+            	<span class="subheading">Craft Beers</span>
+              <h1 class="mb-4">Multiple styles of craft beer for all tastes </h1>
+              <p class="mb-4 mb-md-5">National, imported and created beers by our team</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate">
+            	<img src="images/cervezas-artesanales.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 order-md-last ftco-animate">
+            	<span class="subheading">Supplies</span>
+              <h1 class="mb-4">Best Suppliest to craft beer</h1>
+              <p class="mb-4 mb-md-5">All Suppliest for the production of craft beer in house or industries</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate">
+            	<img src="images/insumos.jpg" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url(images/FondoOurMission.PNG);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<span class="subheading">Welcome</span>
+              <h1 class="mb-4">Our mission is to spread the production of craft beers in Uruguay.</h1>
+              <p class="mb-4 mb-md-5">We are a family business at the service of brewers</p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-intro">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-phone"></span></div>
+	    					<div class="text">
+	    						<h3>(598) 099 123 456</h3>
+	    						<p></p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-my_location"></span></div>
+	    					<div class="text">
+	    						<h3>Pescadores Street M54</h3>
+	    						<p>Canelones | Uruguay</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="text">
+	    						<h3>Open Monday-Friday</h3>
+	    						<p>8:00am - 9:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="social d-md-flex pl-md-5 p-4 align-items-center">
+	    			<ul class="social-icon">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
             </ul>
-      </header>
-        
-        <main>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-about d-md-flex">
+    	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
+    	<div class="one-half ftco-animate">
+        <div class="heading-section ftco-animate ">
+          <h2 class="mb-4">Craft Beer vs Industrial Beer</h2>
+        </div>
+        <div>
+  				<p>Regular beers tend to be aimed at more mainstream tastes, so are brewed for familiarity by using basic, predictable ingredients and methods. Craft beer is often brewed specifically to appeal to more adventurous tastes, but some craft beers do have accessible flavours. It’s more about the philosophy.</p>
+  			</div>
+    	</div>
+    </section>
+
+    
 
 
-            <img src="./assets/inicio.jpg" class="img-fluid" alt="...">
+    <section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
 
-            <div class="Separador"> 
-                <img src="./assets/separador.png" alt="">
-                <p>Nuestras Cervezas</p>
-             
+
+
+    <section class="ftco-menu">
+    	<div class="container-fluid">
+    		<div class="row d-md-flex">
+	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/lupulo.PNG);">
+	    		</div>
+	    		<div class="col-lg-8 ftco-animate p-md-5">
+		    		<div class="row">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Beers</a>
+
+		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Equipments</a>
+
+		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Raw Materials</a>
+
+		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Courses</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/americanIpaBeer.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">American IPA</a></h3>
+		              					<p>The American IPA typically has an alcohol content of around 5 to 8 percent ABV and distinct fruity and earthy aromas that come from American hops</p>
+		              					<p class="price"><span>$190.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/stoutbeer.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Stout</a></h3>
+		              					<p>Stout is a beer distinguished by its deep, almost black color and its rich, complex flavor with notes of toasted dark malt.</p>
+		              					<p class="price"><span>$200.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/weissbeer.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">WeissBier</a></h3>
+		              					<p>Weissbier is the classical wheat beer of Bavaria and one of Germany's greatest and most distinctive beer styles</p>
+		              					<p class="price"><span>$180.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/botellas.PNG);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Bottles</a></h3>
+		              					<p>Available in multiple options: choose from clear or amber glass bottles and select a set of 8 or case of 12. A gallon of beer will fill roughly eight of these 16oz home brew bottles. </p>
+		              					<p class="price"><span>$1099.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/tapador.PNG);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Bottle Capper</a></h3>
+		              					<p>A bag of bottle caps - choose from a 24-count bag (enough caps for two 1 gallon batches) or a 100-count bag (enough for ten 1 gallon batches OR two 5 gallon batches of beer)</p>
+		              					<p class="price"><span>$599.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/termometro.PNG);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">HYDROMETER</a></h3>
+		              					<p>Most of our beers will finish between 5 - 7.5% ABV. But, if you’ve ever wondered exactly how much alcohol your homebrew ended up with, a triple scale hydrometer is your answer! </p>
+		              					<p class="price"><span>$399.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/Malta.PNG);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">MALT EXTRACT</a></h3>
+		              					<p>Briess Traditional Dark DME (dry malt extract) is used in our Dry Irish Stout and Chocolate Milk Stout beer recipe kits.</p>
+		              					<p class="price"><span>$150.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/levadura.PNG);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">SAFBREW</a></h3>
+		              					<p>SafBrew BR-8 is the first Brettanomyces bruxellensis yeast available in a dry format. This yeast is designed for bottling and/or cask conditioning. </p>
+		              					<p class="price"><span>$99.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/lactosa.PNG);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">LACTOSE - MILK SUGAR</a></h3>
+		              					<p>If you love a sweet stout, a milkshake IPA or other dessert beers, try using lactose in your next homebrewed beer. Lactose non-fermentable milk-derived sugar.</p>
+		              					<p class="price"><span>$115.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/curso_basico.jpeg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Home brewing</a></h3>
+		              					<p>Course for the creation of craft beer at home to drink with friends</p>
+		              					<p class="price"><span>$13000.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/curso_medio.png);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Semi-Expert Brewing</a></h3>
+		              					<p>Courses to Cooking various types of beers and professionalization of the process</p>
+		              					<p class="price"><span>$30000.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/curso_experto.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Industrial Brewing</a></h3>
+		              					<p>Professional beer cooking course at an industrial level endorsed by state agencies</p>
+		              					<p class="price"><span>$50000.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+   
+		
+		
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Family company for the production and distribution of craft beer, focused on supporting small and medium-sized producers</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
             </div>
+          </div>
 
-            <div class="nuestras_cervezas">
-                    <img src="./assets/1_lager.png" class="img-thumbnail" alt="...">
-                    <img src="./assets/2_pale-ale.png" class="img-thumbnail" alt="...">
-                    <img src="./assets/3_brown-ale.png" class="img-thumbnail" alt="...">
-                    <img src="./assets/4_belgian-golden.png" class="img-thumbnail" alt="...">
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Beer's</a></li>
+                <li><a href="#" class="py-2 d-block">Accesories</a></li>
+                <li><a href="#" class="py-2 d-block">Courses</a></li>
+                <li><a href="#" class="py-2 d-block">Events</a></li>
+              </ul>
             </div>
-           
-
-
-            <div class="Separador"> 
-                <img src="./assets/separador.png" alt="">
-                <p>EVENTOS</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Pescadores M54 S1 | Uruguay</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+598 123 456</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@beerhouse.com</span></a></li>
+	              </ul>
+	            </div>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
 
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./assets/BrewFest.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3 class="text-light bg-dark">Brew Fest</h3>
-                      <h5 class="text-light bg-dark">Festival Regional de cerveceros</h5>
-                      <p class="text-light bg-dark">25 Agosto 2023.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./assets/Competition.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3 class="text-light bg-dark">Competencia</h3>
-                      <h5 class="text-light bg-dark">Preparaciòn American IPA's</h5>
-                      <p class="text-light bg-dark">31 Agosto 2023.</p>
-                    </div>
-                  </div>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
 
-        </main>
-
-        <footer>
-                <section class="sectionPrincipal">
-                    <a href="">
-                        <img src="" alt="">
-                        Facebook
-                    
-                    </a>
-                    <a href="">
-                        <img src="" alt="">
-                        Tweeter
-                    </a>
-                    <a href="">
-                        <img src="" alt="">
-                        Youtube
-                    </a>
-                    <a href="">
-                        <img src="" alt="">
-                        Instagram
-                    </a>
-                    <a href="">
-                        <img src="" alt="">
-                        LOGO
-                    </a>
-                </section>
-                <section>
-                    <img src="" alt="">
-                    <div>
-                        <p>Calle de los Pescadores 54</p>
-                        <p>Montevideo , Uruguay</p>
-                        <p>Reservas al: 099123456</p>
-                    </div>
-
-                </section>
-
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
-</body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
